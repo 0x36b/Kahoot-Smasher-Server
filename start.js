@@ -42,7 +42,7 @@ http.createServer(function (request, response) {
     }
 
     response.end();
-}).listen(3000, '104.194.219.35');
+}).listen(3000, '127.0.0.1');
 
 function StopSmash() {
     getToken.Stop();
